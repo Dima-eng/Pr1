@@ -21,5 +21,11 @@ namespace ConsoleApp1
             get;
             set;
         }
+        public Class1()
+        {
+            Name = null;
+            Kalibr = 0;
+            Dlina = 0;
+        }
     }
 }
