@@ -6,7 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("-----Ввод данных-----");
+            Class1 H = new Class1();
+            H.SetInfo();
+            H.GetInfo();
         }
     }
 }
