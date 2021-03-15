@@ -35,5 +35,18 @@ namespace ConsoleApp1
             Console.WriteLine("Калибр: {0}", Kalibr);
             Console.WriteLine("Дальность: {0}", Dlina);
         }
+
+        public void SetInfo()
+        {
+            Console.Write("Название: ");
+            Name = Console.ReadLine();
+
+            Console.Write("Калибр: ");
+            Kalibr = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Дальность: ");
+            Dlina = Convert.ToDouble(Console.ReadLine());
+
+        }
     }
 }
