@@ -27,5 +27,13 @@ namespace ConsoleApp1
             Kalibr = 0;
             Dlina = 0;
         }
+        public void GetInfo()
+        {
+            Console.WriteLine();
+            Console.WriteLine("-----Класс-----");
+            Console.WriteLine("Название: {0}", Name);
+            Console.WriteLine("Калибр: {0}", Kalibr);
+            Console.WriteLine("Дальность: {0}", Dlina);
+        }
     }
 }
